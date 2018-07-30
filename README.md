@@ -8,4 +8,4 @@ Originally started with dl.upload8.net in mind, but unfortunately this site is n
 - Live TV (probably later if i dont abandon this)
 
 ## What's working
-- Nothing do far
+- Nothing so far
