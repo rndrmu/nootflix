@@ -11,7 +11,7 @@ Originally started with dl.upload8.net in mind, but unfortunately this site is n
 - Live TV (probably later if i dont abandon this)
 
 # nootflix-sites
-Sites that are currently implemented:
+Sites that are currently implemented: <br>
 _German_
 - [ ] cine.to (Movies)
 - [ ] bs.to (TV Shows)
