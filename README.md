@@ -1,6 +1,6 @@
 # nootflix
-nootflix is a Crossplatform frontend for multiple movie stream sites.
-Originally started with dl.upload8.net in mind, but unfortunately this site is no longer accessible
+nootflix is planned as a Home Theater software similar to <a href="https://github.com/xbmc/xbmc">Kodi</a>
+utilising node.js and electron to build the UI.
 
 ## What's working
 - Nothing so far
@@ -13,6 +13,6 @@ Originally started with dl.upload8.net in mind, but unfortunately this site is n
 # nootflix-sites
 Sites that are currently implemented: <br>
 _German_
-- [ ] cine.to (Movies)
-- [ ] bs.to (TV Shows)
-- [ ] Some Live-IPTV lists
+- [ ] cine.to (Movies) <br>
+- [ ] bs.to (TV Shows) <br>
+- [x] Some Live-IPTV lists <br>
