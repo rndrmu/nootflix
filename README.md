@@ -3,7 +3,7 @@ nootflix is aimed to be a performance orientated Home Theater software similar t
 utilising node.js and electron to build the UI.
 
 ## What's working
-- Nothing so far
+- One Channel plays immediately on Start
 
 ## What's planned
 - TV Shows
