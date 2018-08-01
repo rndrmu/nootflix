@@ -265,8 +265,8 @@ function showPage() {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
-    <button  class="btn" onClick=""><i class="fa fa-download"></i>Change Account</button> <br>
-    <button  class="btn" onClick=""><i class="fa fa-download"></i>Change Emulator path</button> <br>
+    <button  class="btn" onClick=""><i class="fa fa-download"></i>something</button> <br>
+    <button  class="btn" onClick=""><i class="fa fa-download"></i>bottom text</button> <br>
     
   </div>
 
@@ -280,7 +280,7 @@ function showPage() {
   var video = document.getElementById('video');
   if(Hls.isSupported()) {
     var hls = new Hls();
-    hls.loadSource('http://www.bozhd.eu:8000/live/NZQLoFXvwa/q7BQosiV2I/691.m3u8');
+    hls.loadSource(''); <!--This is where the .m3u8 goes -->
     hls.attachMedia(video);
     hls.on(Hls.Events.MANIFEST_PARSED,function() {
       video.play();
