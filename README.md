@@ -13,8 +13,8 @@ utilising node.js and electron to build the UI.
 ## nootflix-sites
 Sites that are currently implemented: <br>
 _German_
-- [ ]~~cine.to (Movies)~~ Can't be embedded<br>
-- [ ]~~bs.to (TV Shows)~~ Can't be embedded<br>
+- [ ]~~cine.to (Movies)~~ Can't be embedded and have to find alternative<br>
+- [ ]~~bs.to (TV Shows)~~ Can't be embedded and have to find alternative<br>
 - [x] Some Live-IPTV lists <br>
 
 
