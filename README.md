@@ -1,6 +1,6 @@
 # nootflix
 nootflix is aimed to be a performance orientated Home Theater software similar to <a href="https://github.com/xbmc/xbmc">Kodi</a>
-utilising a href="https://nodejs.org/en/download/">Node.js<\a> and electron to build the UI.
+utilising <a href="https://nodejs.org/en/download/">Node.js</a> and electron to build the UI.
 
 ## What's working
 - One Channel plays immediately on Start
