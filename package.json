@@ -1,20 +1,16 @@
 {
-  "name": "Cemu-Profiles",
+  "name": "Nootflix",
   "version": "0.0.1",
-  "description": "Cemu Profiler",
+  "description": "Nootflix",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/ThePStar7/Cemu-Profiler",
+  "repository": "https://github.com/ThePStar7/nootflix",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+   
   ],
-  "author": "GitHub",
+  "author": "Pstar",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^2.0.6"
