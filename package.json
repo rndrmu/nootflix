@@ -11,7 +11,7 @@
    
   ],
   "author": "Pstar",
-  "license": "CC0-1.0",
+  "license": "GPL-3.0",
   "devDependencies": {
     "electron": "^2.0.6"
   },
