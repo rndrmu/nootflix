@@ -30,7 +30,7 @@ let template = [{
           type: 'info',
           title: 'About',
           buttons: ['OK'],
-          message: 'Simple, performance orientated IPTV and Home Theater Software'
+          message: 'Simple, performance orientated IPTV Software'
         }
         dialog.showMessageBox(focusedWindow, options, function () {})
       }
@@ -99,7 +99,7 @@ let template = [{
           type: 'info',
           title: 'Contributors',
           buttons: ['Ok'],
-          message: 'Main Developer: PStar7, Tester: PStar7, Special thanks to: PStar7'
+          message: 'Main Developer: PStar7'
         }
         dialog.showMessageBox(focusedWindow, options, function () {})
       }
