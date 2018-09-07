@@ -13,7 +13,7 @@
   "author": "Pstar",
   "license": "GPL-3.0",
   "devDependencies": {
-    "electron": "^2.0.6"
+    "electron": "^2.0.8"
   },
   "dependencies": {
     "async": "^2.6.1",
