@@ -3,7 +3,7 @@ nootflix is aimed to be a user-friendly Home-Theater software similar to <a href
 utilising <a href="https://nodejs.org/en/">Node.js</a> and <a href="https://electronjs.org">Electron</a> to build the UI.
 
 ## What's working
-- You can search for, and watch movies, but an ad plays before every video
+- You can search for, and watch movies, but an ad plays before every video hosted on openload
 
 ## What is still todo:
 - UI
