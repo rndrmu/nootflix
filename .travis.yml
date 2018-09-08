@@ -9,6 +9,8 @@ matrix:
         - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
 
     - os: linux
+      sudo: required
+      dist: trusty
       services: docker
       language: generic
 
