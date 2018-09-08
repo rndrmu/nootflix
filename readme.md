@@ -9,7 +9,7 @@ utilising <a href="https://nodejs.org/en/">Node.js</a> and <a href="https://elec
 
 ## What's working
 - You can search for, and watch movies, but an ad plays before every video hosted on openload
-
+- IMDb id search 
 ## What is still todo:
 - UI
 - AdBlocker
