@@ -1,4 +1,4 @@
-# nootflix
+# nootflix [![Build Status](https://travis-ci.org/ThePStar7/nootflix.svg?branch=master)](https://travis-ci.org/ThePStar7/nootflix)
 nootflix is aimed to be a user-friendly Home-Theater software similar to <a href="https://github.com/xbmc/xbmc">Kodi</a>
 utilising <a href="https://nodejs.org/en/">Node.js</a> and <a href="https://electronjs.org">Electron</a> to build the UI.
 
