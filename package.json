@@ -6,8 +6,8 @@
   "scripts": {
     "start": "electron .",
     "postinstall": "install-app-deps",
-    "dist": "npm run build",
-    "build": "echo 'build script executed'"
+    "dist": "npm run build"
+    
   },
   "repository": "https://github.com/ThePStar7/nootflix",
   "keywords": [
