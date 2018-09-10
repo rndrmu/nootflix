@@ -1,18 +1,21 @@
-
-addons:
-    apt:
-      packages:
-        - xvfb
-  
-  install:
-    - export DISPLAY=':99.0'
-    - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
-    
 language: node_js
-sudo: eneabled
 node_js:
-  - "iojs"
-  - "7"
-  npm install electron-packager
-  
-  electron packager electron-packager ./ NootFlix ReFresh --platform=all --arch=all 
+  - '8'
+matrix:
+  include:
+  - os: linux
+    dist: xenial
+    sudo: required
+  - os: osx
+  - os: win32
+cache:
+  yarn: true
+notifications:
+  email: false
+script:
+  - yarn dist
+deploy:
+  provider: releases
+  skip_cleanup: true
+  on:
+    tags: true
