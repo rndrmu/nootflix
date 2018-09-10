@@ -4,7 +4,9 @@
   "description": "Nootflix",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "postinstall": "install-app-deps",
+    "dist": "npm run build && build --publish onTagOrDraft"
   },
   "repository": "https://github.com/ThePStar7/nootflix",
   "keywords": [
@@ -39,5 +41,43 @@
     "update-electron-app": "^1.3.0",
     "url": "^0.11.0",
     "util": "^0.11.0"
+  },
+  "build": {
+  "appId": "gq.sineflex.nootflix",
+  "category": "public.app-category.entertainment",
+  "files": [
+    "dist/",
+    "node_modules/",
+    "static/",
+    "main.js",
+    "index.html",
+    "package.json"
+  ],
+  "dmg": {
+    "contents": [
+      {
+        "x": 130,
+        "y": 220
+      },
+      {
+        "x": 410,
+        "y": 220,
+        "type": "link",
+        "path": "/Applications"
+      }
+    ]
+  },
+  "win": {
+    "target": "nsis"
+  },
+  "linux": {
+    "target": [
+      "AppImage",
+      "deb"
+    ]
   }
+},
+  "directories": {
+    "output": "release"
+}
 }
