@@ -1,20 +1,22 @@
-image: Visual Studio 2017
-
-platform:
-  - x64
-
+os: unstable
 cache:
   - node_modules
-  - '%USERPROFILE%\.electron'
-
-init:
-  - git config --global core.autocrlf input
-
+environment:
+  GH_TOKEN:
+      secure: zklonGZOc9lTRn0IEqTQob3KE7VWw6ynhywB/vQqL1qpH54p14O1+owJdnet+XPc
+  matrix:
+    - nodejs_version: 6
 install:
-  - ps: Install-Product node 8 x64
-  - yarn
-
-build_script:
-  - yarn dist
-
-test: off
+  - ps: Install-Product node $env:nodejs_version
+  - set CI=true
+  - npm install -g npm@latest
+  - set PATH=%APPDATA%\npm;%PATH%
+  - npm install
+matrix:
+  fast_finish: true
+build: off
+version: '{build}'
+shallow_clone: true
+clone_depth: 1
+test_script:
+  - npm run dist
