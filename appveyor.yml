@@ -1,22 +1,19 @@
-os: unstable
+image: Visual Studio 2017
+platform: x64
+
 cache:
   - node_modules
+  - '%LOCALAPPDATA%\electron\Cache'
+  - '%LOCALAPPDATA%\electron-builder\cache'
+
 environment:
-  GH_TOKEN:
-      secure: zklonGZOc9lTRn0IEqTQob3KE7VWw6ynhywB/vQqL1qpH54p14O1+owJdnet+XPc
-  matrix:
-    - nodejs_version: 6
+  TEST_FILES: ExtraBuildTest,BuildTest,extraMetadataTest,filesTest,globTest,nsisUpdaterTest,oneClickInstallerTest,installerTest,appxTest,msiTest
+
 install:
-  - ps: Install-Product node $env:nodejs_version
-  - set CI=true
-  - npm install -g npm@latest
-  - set PATH=%APPDATA%\npm;%PATH%
-  - npm install
-matrix:
-  fast_finish: true
-build: on
-version: '{build}'
-shallow_clone: true
-clone_depth: 1
+  - ps: Install-Product node 10 x64
+  - yarn
+
+build: off
+
 test_script:
-  - npm run dist
+  - yarn test
