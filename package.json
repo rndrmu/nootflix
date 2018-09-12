@@ -80,7 +80,5 @@
     ]
   }
 },
-  "directories": {
-    "output": "release"
-}
+  
 }
