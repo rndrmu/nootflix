@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "postinstall": "install-app-deps",
-    "dist": "npm run build && build --publish onTagOrDraft",
+    "dist": "npm run build && build --publish",
     "build": "echo building..."
 
     
